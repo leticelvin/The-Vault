@@ -1,0 +1,350 @@
+﻿body {
+	margin: 0px;
+	padding: 0px;
+}	
+
+header {
+	color: #fff;
+	width: 100%;
+	height: 12vh;
+	position: fixed;
+}
+
+.container {
+	background-color: #fff;
+	width: 100%;
+	height: 12vh;
+	margin-top: -6px;
+	flex-direction: row;
+}
+
+nav {
+	background-color: #fff;
+	width: 100px;
+	height: 12vh;
+	border: 0px;
+	margin-top: -6px;
+	text-align: center;
+	display: flex;
+    
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.navlogo {
+	width: 400px;
+	height: 85px;
+	display: flex;
+	float: left;
+	margin-left: 4px;
+	padding-top: 5px;
+	padding-left: 4px;
+	align-items: left;
+	justify-content: left;
+	position: absolute;
+}
+
+nav ul {
+	padding-top: 10px;
+	padding-left: 170px;
+	display: flex;
+	margin-left: 70px;
+	list-style: none;
+	flex-direction: row;
+	align-items: right;
+    justify-content: right;
+}
+
+nav li {
+	padding-top: 10px;
+	padding-left: 170px;
+	display: flex;
+	margin-left: 30px;
+	text-decoration: none;
+	flex-direction: row;
+	align-items: right;
+    justify-content: right;
+}
+
+nav a {
+	display: flex;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Verdana, sans-serif; 
+	font-size: 20px;
+	flex-direction: row;
+}
+
+nav a:hover {
+	color: teal;
+}
+
+a {
+    cursor: crosshair;
+}
+
+body {
+	background-color: rgb(224, 224, 224)
+}	
+
+.section1 {
+	background-color: white;
+	width: 100%;
+	height: 40vh;
+}
+
+.section2 {
+	background-color: white;
+	width: 100%;
+	height: 320vh;
+	text-align: center;
+}
+
+.section3 {
+	background-color: white;
+	width: 100%;
+	height: 40vh;
+}
+
+.newspaperimage {
+	align-items: right;
+}	
+
+span {
+	color: teal;
+}
+
+.section4video {
+	background-image: linear-gradient( rgb(224, 224, 224), rgb(0,0,0,1));
+	width: 100%;
+	height: 20%;
+}	
+
+.video {
+	padding-top: 10%;
+	padding-left: 27%;
+}	
+
+h1 {
+	color: teal;
+	font-family: Verdana, sans-serif; 
+	text-align: center;
+}	
+
+.introduction {
+	color: grey;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+}	
+
+.history {
+	color: grey;
+	font-family: Verdana, sans-serif; 
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}	
+
+.lists { 
+	color: grey;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+}
+
+
+.imagecover {
+	background-image: url(https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/7/7d/Stark_Industries.png/revision/latest?cb=20190406194855);
+	margin-top: 0px;
+
+}
+
+.imagecover img {
+	width: 100%;
+	height: 35%;
+}	
+
+iframe {
+	border: 0px;
+}	
+
+footer {
+	width: 100%; 
+	height: 800px; 
+	background-color: black;
+	border: 0px;
+	flex-direction: row;
+}
+
+footer a:hover {
+	color: teal;
+}
+
+.footersection {
+	background-color: black;
+	width: 100%;
+	height: 800px;
+}
+
+
+.footerlogo {
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+
+
+.footersection ul {
+	margin: 2px; 
+	padding: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	flex-direction: row;
+}
+
+.footersection a {
+	text-decoration: none;
+	text-transform: uppercase;
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	flex-direction: row;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: left;
+	padding-top: 27px;
+}
+
+.Topofpage {
+	text-align: center;
+}
+
+.topofpagetext {
+	display: inline-block;	
+}
+
+.logocontainer {
+	height: 44px;
+	width: 178px;
+	position: absolute;
+	margin-bottom: 120px;
+	margin-left: 800px;	
+}
+
+.logocontainer li{
+	display: inline;
+}
+
+.fab {
+	font-family: "Font Awesome 5 Brands";
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;	
+}
+
+i {
+	width: 24px;
+	height: 24px;
+}
+
+#map {
+	height: 450px;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+@media(max-width: 768px) {
+	header nav li, nav a{
+	font-size: 15px;
+	font-weight: bold;	
+	margin-left: 20%;
+	margin-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 18px;
+	margin-top: 30px;
+	display: inline-flex;
+	float: left;
+	}
+
+@media(max-width: 768px) {
+	header, nav {
+	height: 21vh;
+	width: 100%;
+}		
+
+@media(max-width: 768px) {
+	.navlogo {
+	padding-top: 15px;
+	margin-left: 28%;
+	float: center;
+	align-items: center;
+	justify-content: center;
+}		
+
+@media(max-width: 768px) {
+	h4 {
+	font-size: 15px;	
+
+}
+
+@media(max-width: 768px) {
+	.section1, .section3 {
+	height: 90vh;	
+}
+
+@media(max-width: 768px) {
+	.section2 {
+	height: 210vh;
+}	
+
+	.section2 {
+	white-space: nowrap;	
+	overflow: hidden;
+	text-overflow: ellipsis;
+}	
+
+@media(max-width: 768px) {
+	iframe {
+	width: 100%;
+	height: 40%;	
+}
+
+@media(max-width: 768px) {
+	.logocontainer {
+	margin-right: 1px;
+	margin-left: 90px;	
+	display: inline-flex;	
+}
+
+@media(max-width: 768px) {
+	.logocontainer ul {
+	margin-right: 1px;
+	margin-left: 90px;
+	display: inline-flex;			
+}	
+
+}
+}
+}
+}
+}
+}
+}
+}
